@@ -1,0 +1,17 @@
+.courses {
+  padding: 20px;
+    min-height: calc(100vh - 190px);
+  
+    h2 {
+      font-size: 32px;
+      color: #8a4baf;
+      margin-bottom: 30px;
+    }
+  
+    .course-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+      gap: 30px;
+    }
+}
